@@ -5,10 +5,10 @@
   min-height: 100vh;
   font-size: 1.4rem;
   position: relative;
-  background: #fafafa;
+  background: var.$white;
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
-  background: #fafafa url("/images/fbackground.png") center right no-repeat;
+  background: var.$white url("/images/fbackground.png") center right no-repeat;
   background-attachment: fixed;
   padding-bottom: 10rem;
 }
@@ -22,18 +22,20 @@
 }
 
 .card {
-  margin: 1rem 25rem;
+  margin: 1rem 30rem;
   background: #ffffffaa;
 }
 
 .subtitle {
-  font-size: 2rem;
+  font-size: 4rem;
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: 5rem;
 }
 .paragraph {
-  font-size: 1.7rem;
-  padding-bottom: 1rem;
+  padding: 0 3rem;
+  font-size: 2.2rem;
+  line-height: 110%;
+  padding: 1rem 0;
 }
 
 .button {

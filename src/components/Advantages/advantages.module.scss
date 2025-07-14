@@ -1,0 +1,38 @@
+@use "../../styles/_var" as var;
+
+.advantages {
+  background-color: var.$blue;
+  clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
+  min-height: 100vh;
+  width: 100%;
+  padding: 7rem 3rem;
+  position: relative;
+  margin: -100px 0 140px;
+  z-index: 1;
+  color: var.$white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var.$font-manrope;
+}
+.container {
+  padding-top: 3rem;
+}
+.paragraph {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  line-height: 150%;
+  & > span {
+    font-size: 2.3rem;
+    line-height: 150%;
+    color: var.$pink;
+    font-weight: 600;
+  }
+}
+.subtitle {
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 150%;
+  color: var.$white;
+}

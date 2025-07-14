@@ -1,0 +1,40 @@
+@use "../../styles/_var" as var;
+
+.footer {
+  min-height: 100vh;
+  font-size: 1.4rem;
+  position: relative;
+  background: #f0f0f0;
+  background: linear-gradient(215deg, #f0f0f0 0%, #fafafa 100%);
+  clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
+  margin-top: -10rem;
+  z-index: 1;
+  font-family: var.$font-manrope;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  padding-top: 4rem;
+}
+.contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.contact_item {
+  border: 1px solid var.$pink;
+  background-color: var.$white;
+  padding: 1rem 4rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & > a {
+    text-decoration: none;
+    color: var.$blue;
+  }
+  & > p {
+    color: var.$pink;
+  }
+}

@@ -9,20 +9,30 @@ function Bio() {
       <div className={styles.wrapper}>
         <Title title='About Me' />
         <div className={styles.card}>
-          <h3 className={styles.subtitle}>Hello there👋, I'm Nadia</h3>
+          <h3 className={styles.subtitle}>Hello there👋, I'm Nadia, </h3>
           <p className={styles.paragraph}>
-            I am a frontend developer with a passion for creating interactive
-            and user-friendly web applications.
+            a frontend developer with 3 years of experience in creating clean,
+            effective landing pages and business card websites for specialists
+            and companies. I take pride in my attention to detail and my
+            commitment to delivering high-quality work. My clients often mention
+            that it’s both easy and enjoyable to collaborate with me.
           </p>
           <p className={styles.paragraph}>
-            I enjoy collaborating with cross-functional teams to deliver
-            high-quality solutions that meet client requirements. I am always
-            learning and exploring new technologies to enhance my skills and
-            stay up-to-date with the latest industry trends.
+            During my internship at an international company, I had the
+            opportunity to lead a diverse team. This experience taught me the
+            importance of open communication, adaptability, and respecting
+            cultural differences. I thrive in team environments and am always
+            eager to contribute to a positive and productive group dynamic.
           </p>
           <p className={styles.paragraph}>
-            In my free time, I experiment with new coding concepts, participate
-            in hackathons and learn Hungarian language.
+            Based in Hungary, I am open to working with clients and companies
+            from around the world. I understand the nuances of cross-cultural
+            collaboration and am comfortable managing projects across different
+            time zones.
+          </p>
+          <p className={styles.paragraph}>
+            In my free time, I study Hungarian and explore game design, which
+            helps me stay creative and continuously expand my skill set.
           </p>
         </div>
         <Title title='My skills' />
