@@ -6,16 +6,17 @@
   position: relative;
   background: #f0f0f0;
   background: linear-gradient(215deg, #f0f0f0 0%, #fafafa 100%);
-  clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
+  clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 0 100%, 0 100%);
   margin-top: -10rem;
   z-index: 1;
   font-family: var.$font-manrope;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .container {
   padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
 }
 .contacts {
   display: grid;
@@ -26,15 +27,81 @@
   border: 1px solid var.$pink;
   background-color: var.$white;
   padding: 1rem 4rem;
-  border-radius: 20px;
+  // border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   & > a {
     text-decoration: none;
     color: var.$blue;
+    &:hover {
+      color: var.$pink;
+    }
   }
   & > p {
     color: var.$pink;
+  }
+}
+
+.form {
+  width: 62vh;
+  border: 1px solid var.$pink;
+  background-color: var.$white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .input {
+    padding: 2rem;
+    resize: none;
+    font-size: 2rem;
+    border: none;
+    font-family: var.$font-manrope;
+    &::placeholder {
+      color: var.$gray;
+    }
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="text"]:not(output):not(:focus),
+  input[type="email"]:not(output):not(:focus),
+  textarea {
+    border-bottom: 1px solid var.$white;
+    background: transparent;
+    color: var.$blue;
+    font-size: 1.8rem;
+    box-shadow: none;
+    outline: none;
+  }
+
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="text"]:not(output):focus,
+  input[type="email"]:not(output):focus,
+  textarea:focus {
+    border-bottom: 2px solid var.$pink;
+  }
+}
+
+.button {
+  display: flex;
+  align-self: flex-end;
+  width: 35%;
+  height: 100%;
+  font-size: 1.5rem;
+  color: var.$white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 1rem;
+  border: 2px solid var.$pink;
+  background-color: var.$pink;
+  &:hover,
+  &:active {
+    transition: all 0.3s ease;
+    background-color: var.$blue;
   }
 }

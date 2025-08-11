@@ -5,7 +5,7 @@ import Form from "./Form";
 
 function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id='contact'>
       <div className={styles.container}>
         <Title title='Contacts' />
         <div className={styles.contacts}>
@@ -47,13 +47,13 @@ function Footer() {
               height={80}
             />
             <p>Linkedin</p>
-            <a href='phttps://www.linkedin.com/in/nadezhda-szabo-a44a5729a/'>
+            <a href='https://www.linkedin.com/in/nadezhda-szabo/'>
               www.linkedin.com/nadezhda-szabo
             </a>
           </div>
         </div>
+        <Form />
       </div>
-      <Form />
     </footer>
   );
 }

@@ -5,7 +5,7 @@ import Button from "../Button/Button";
 
 function Portfolio() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id='portfolio'>
       <div className={styles.wrapper}>
         <Title title='My work' />
         <div className={styles.cards}>

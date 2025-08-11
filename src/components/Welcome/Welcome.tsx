@@ -10,7 +10,7 @@ function Welcome() {
           with passion <span className={styles.color}>&</span> skills.
         </h1>
         <div className={styles.buttons}>
-          <Button link='#projects' text='My Portfolio' />
+          <Button link='#portfolio' text='My Portfolio' />
           <Button link='#contact' text='Contact Me' className={styles.button} />
         </div>
       </div>
