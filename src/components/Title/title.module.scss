@@ -1,0 +1,17 @@
+@use "../../styles/_var" as var;
+
+.container {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.title {
+  font-family: var.$font-manrope;
+  font-size: 4rem;
+}
+.line {
+  width: 100%;
+  border: none;
+  height: 5px;
+  background-color: var.$pink;
+}

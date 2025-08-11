@@ -1,0 +1,37 @@
+@use "../../styles/_var" as var;
+
+.header {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_scroll {
+  background-color: var.$blue;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  color: var.$white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: var.$font-play;
+  & > span {
+    font-weight: 600;
+    color: var.$pink;
+  }
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
