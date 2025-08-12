@@ -32,9 +32,9 @@ function Header() {
           />
         </Link>
         <button className={styles.button}>
-          <a href='/' className={styles.logo}>
+          <Link href='/' className={styles.logo}>
             Nadia<span>Szabó</span>
-          </a>
+          </Link>
         </button>
       </div>
       <button className={styles.button}>

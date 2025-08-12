@@ -8,7 +8,7 @@
   background: var.$white;
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
-  background: var.$white url("/images/fbackground.png") center right no-repeat;
+  background: var.$white url("/images/fbackground2.png") center right no-repeat;
   background-attachment: fixed;
   padding-bottom: 10rem;
 }
@@ -27,14 +27,26 @@
 }
 
 .subtitle {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
+}
+.card_photo {
+  border-radius: 250px;
+  float: left;
+  margin-right: 1rem;
+  filter: saturate(0);
+  transition: all 500ms;
+  &:hover {
+    transition: all 500ms;
+    filter: saturate(1);
+    transform: scale(0.85);
+  }
 }
 .paragraph {
   padding: 0 3rem;
   font-size: 2.2rem;
-  line-height: 110%;
+  line-height: 140%;
   padding: 1rem 0;
 }
 

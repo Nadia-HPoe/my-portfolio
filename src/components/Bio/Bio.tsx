@@ -9,14 +9,21 @@ function Bio() {
       <div className={styles.wrapper}>
         <Title title='About Me' />
         <div className={styles.card}>
-          <h3 className={styles.subtitle}>Hello there👋, I'm Nadia, </h3>
+          <h3 className={styles.subtitle}>Hello there! I&apos;m Nadia, </h3>
+          <Image
+            className={styles.card_photo}
+            src='/images/bio.jpg'
+            width={450}
+            height={450}
+            alt='my photo'
+          />
           <p className={styles.paragraph}>
             a frontend developer with 3 years of experience in creating clean,
             effective landing pages and business card websites for specialists
             and companies. I take pride in my attention to detail and my
             commitment to delivering high-quality work. My clients often mention
-            that it’s both easy and enjoyable to collaborate with me.
-          </p>
+            that it&apos;s both easy and enjoyable to collaborate with me.
+          </p>{" "}
           <p className={styles.paragraph}>
             During my internship at an international company, I had the
             opportunity to lead a diverse team. This experience taught me the
