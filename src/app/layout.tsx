@@ -4,7 +4,7 @@ import "./globals.css";
 // import { getLocale, getMessages } from "next-intl/server";
 
 export const metadata: Metadata = {
-  title: "Frontend Developer",
+  title: "Frontend Developer Nadezhda Szabo",
   description: "Frontend Developer portfolio",
 };
 
