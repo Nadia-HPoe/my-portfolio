@@ -7,7 +7,7 @@
 
 .title {
   font-family: var.$font-manrope;
-  font-size: 4rem;
+  font-size: clamp(3rem, 3.333vw + 0rem, 4rem);
 }
 .line {
   width: 100%;
