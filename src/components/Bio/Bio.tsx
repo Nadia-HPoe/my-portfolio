@@ -50,6 +50,7 @@ function Bio() {
               alt='js'
               width={80}
               height={80}
+              className={styles.skill_icon}
             />
           </div>
           <div className={styles.skill}>
@@ -58,6 +59,7 @@ function Bio() {
               alt='js'
               width={80}
               height={80}
+              className={styles.skill_icon}
             />
           </div>
           <div className={styles.skill}>
@@ -66,6 +68,7 @@ function Bio() {
               alt='js'
               width={80}
               height={80}
+              className={styles.skill_icon}
             />
           </div>
           <div className={styles.skill}>
@@ -74,6 +77,7 @@ function Bio() {
               alt='js'
               width={80}
               height={80}
+              className={styles.skill_icon}
             />
           </div>
           <div className={styles.skill}>
@@ -82,6 +86,7 @@ function Bio() {
               alt='js'
               width={80}
               height={80}
+              className={styles.skill_icon}
             />
           </div>
           <div className={styles.skill}>
@@ -90,6 +95,7 @@ function Bio() {
               alt='js'
               width={80}
               height={80}
+              className={styles.skill_icon}
             />
           </div>
           <div className={styles.skill}>
@@ -98,6 +104,7 @@ function Bio() {
               alt='js'
               width={80}
               height={80}
+              className={styles.skill_icon}
             />
           </div>
           <div className={styles.skill}>
@@ -106,6 +113,7 @@ function Bio() {
               alt='js'
               width={80}
               height={80}
+              className={styles.skill_icon}
             />
           </div>
           <div className={styles.skill}>
@@ -114,6 +122,7 @@ function Bio() {
               alt='js'
               width={80}
               height={80}
+              className={styles.skill_icon}
             />
           </div>
         </div>
