@@ -63,7 +63,7 @@ function Portfolio() {
               </p>
               <div className={styles.card_buttons}>
                 <Button
-                  link='hhttps://github.com/Nadia-HPoe/Bon-Bon-Flowershop'
+                  link='https://github.com/Nadia-HPoe/Bon-Bon-Flowershop'
                   text='View source'
                   className={styles.button}
                 />
@@ -82,6 +82,42 @@ function Portfolio() {
                 width={1000}
                 height={500}
               />
+            </div>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.image_wrapper}>
+              <Image
+                className={styles.image}
+                src='/images/works/work3.png'
+                alt='work'
+                width={1000}
+                height={500}
+              />
+            </div>
+            <div className={styles.card_container}>
+              <div className={styles.card_titles}>
+                <h3 className={styles.card_title}>HR Landing</h3>
+                <p className={styles.card_subtitle}>
+                  Vite + TypeScript, styling with Sass and vanilla-cookieconsent
+                  for cookie regulations.
+                </p>
+              </div>
+              <p className={styles.card_text}>
+                A modern, responsive landing page for HR Advisor, designed to
+                attract and inform users about HR Advisor&apos;s offerings.
+              </p>
+              <div className={styles.card_buttons}>
+                <Button
+                  link='https://github.com/Nadia-HPoe/HR_landing'
+                  text='View source'
+                  className={styles.button}
+                />
+                <Button
+                  link='www.orlova.io/'
+                  text='Try It Live'
+                  className={styles.button}
+                />
+              </div>
             </div>
           </div>
         </div>
