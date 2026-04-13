@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Bio() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id='about'>
       <div className={styles.wrapper}>
         <Title title='About Me' />
         <div className={styles.card}>
@@ -18,7 +18,7 @@ function Bio() {
             alt='my photo'
           />
           <p className={styles.paragraph}>
-            a frontend developer with 3 years of experience in creating clean,
+            a frontend developer with 4 years of experience in creating clean,
             effective landing pages and business card websites for specialists
             and companies. I take pride in my attention to detail and my
             commitment to delivering high-quality work. My clients often mention

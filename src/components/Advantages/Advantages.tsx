@@ -33,13 +33,6 @@ function Advantages() {
             best solutions.
           </p>
         </div>
-        {/* <div className={styles.wrapper4}>
-          <p className={styles.subtitle}>Open to Global Projects:</p>
-          <p className={styles.paragraph}>
-            Ready to take on challenges with international clients and deliver
-            results that make an impact.
-          </p>
-        </div> */}
       </div>
       <p className={styles.paragraph2}>
         Let’s work together to bring your vision to life!

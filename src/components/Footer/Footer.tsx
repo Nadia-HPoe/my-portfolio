@@ -1,7 +1,7 @@
 import Title from "../Title/Title";
 import styles from "./footer.module.scss";
 import Image from "next/image";
-import Form from "./Form";
+// import Form from "./Form";
 
 function Footer() {
   return (
@@ -52,7 +52,19 @@ function Footer() {
             </a>
           </div>
         </div>
-        <Form />
+        {/* <Form /> */}
+        <div className={styles.bottom_bar}>
+          <nav className={styles.nav}>
+            <a href='#welcome'>Home</a>
+            <a href='#about'>About Me</a>
+            <a href='#portfolio'>Portfolio</a>
+            <a href='#contact'>Contact</a>
+            <a href='https://github.com/Nadia-HPoe' target='_blank' rel='noopener noreferrer'>GitHub</a>
+          </nav>
+          <p className={styles.copyright}>
+            &copy; {new Date().getFullYear()} Created by Nadia Szabó. All rights reserved.
+          </p>
+        </div>
       </div>
     </footer>
   );

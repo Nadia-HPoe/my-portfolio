@@ -3,7 +3,7 @@ import styles from "./welcome.module.scss";
 
 function Welcome() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id='welcome'>
       <div className={styles.wrapper}>
         <h1 className={styles.title}>
           I do code <br />
